@@ -30,5 +30,15 @@
 *.exe
 *.out
 *.app
+
+#Visual C++ specific
 .vs
 *.VC.db
+*.sbr
+*.idb
+*.pdb
+*.tlog
+*.log
+*.bsc
+*.ilk
+*.pdb
