@@ -1,0 +1,13 @@
+*.obj
+*.ilk
+*.sbr
+*.exe
+CVS
+*.opt
+*.plg
+*.idb
+*.ncb
+*.pch
+*.res
+*.pdb
+*.aps

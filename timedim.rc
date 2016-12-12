@@ -1,0 +1,368 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\timedim.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\timedim.ico"
+IDI_CHECK               ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_UNCHECK             ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_FOLDER_CLOSE        ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_FOLDER_OPEN         ICON    DISCARDABLE     "res\\ico00003.ico"
+IDI_DRIVE_CDROM         ICON    DISCARDABLE     "res\\ico00004.ico"
+IDI_DRIVE_REMOVABLE     ICON    DISCARDABLE     "res\\ico00005.ico"
+IDI_DRIVE_FLOPPY        ICON    DISCARDABLE     "res\\ico00006.ico"
+IDI_DRIVE_FIXED         ICON    DISCARDABLE     "res\\ico00007.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\ico00008.ico"
+IDI_ICON2               ICON    DISCARDABLE     "res\\icon2.ico"
+IDI_DRIVE_USB           ICON    DISCARDABLE     "res\\icon3.ico"
+IDI_DRIVE_NET           ICON    DISCARDABLE     "res\\ico00009.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 296, 198
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "TimeDim Copy Machine",IDC_HEAD,28,8,239,23,SS_NOPREFIX
+    LTEXT           "Copyright (C) Peter Glen 2007 ....  2010, 2011",IDC_CR,
+                    14,182,144,8
+    DEFPUSHBUTTON   "&OK",IDOK,232,179,50,14,WS_GROUP
+    PUSHBUTTON      "&Help",IDC_BUTTON1,178,179,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    CONTROL         148,IDC_STATIC,"Static",SS_BITMAP,14,50,267,123
+    LTEXT           " Version 2.4 Built 10/may/2011",IDC_VER,97,37,99,8
+END
+
+IDD_TIMEDIM_DIALOG DIALOGEX 0, 0, 506, 403
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,13,49,233,124
+    CONTROL         "Tree1",IDC_TREE2,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,260,50,233,124
+    PUSHBUTTON      "&Backup -->",IDC_BUTTON1,13,382,67,15
+    PUSHBUTTON      "< --- &Restore",IDC_BUTTON2,82,382,67,15
+    PUSHBUTTON      "Show Log",IDC_BUTTON14,220,382,67,15
+    PUSHBUTTON      "Loa&d Sesion",IDC_BUTTON4,427,329,67,15
+    PUSHBUTTON      "&Help",IDC_BUTTON13,289,382,67,15
+    PUSHBUTTON      "&About",ID_HELP,358,382,67,15
+    PUSHBUTTON      "E&xit",IDC_BUTTON6,427,382,67,15
+    PUSHBUTTON      "&Stop Copy",IDC_BUTTON8,358,329,67,15
+    PUSHBUTTON      "Clear Progress",IDC_BUTTON7,151,382,67,15
+    PUSHBUTTON      "Pause",IDC_BUTTON9,358,347,67,15
+    PUSHBUTTON      "Save Session",ID_BUTTON12,427,347,67,15
+    LTEXT           "Prompt Before Start ",IDC_UNC4,34,346,64,8
+    CONTROL         "",IDC_CHECK1,"Button",BS_AUTOCHECKBOX,21,346,8,8
+    LTEXT           "Do not Copy (simulate)",IDC_UNC6,136,346,72,8
+    CONTROL         "",IDC_CHECK3,"Button",BS_AUTOCHECKBOX,124,346,8,8
+    LTEXT           "Create Backup (of older files)",IDC_UNC5,136,334,92,8
+    CONTROL         "",IDC_CHECK2,"Button",BS_AUTOCHECKBOX,124,334,8,8
+    LTEXT           "Verify after Copy (slower)",IDC_UNC7,32,334,78,8
+    CONTROL         "",IDC_CHECK4,"Button",BS_AUTOCHECKBOX,21,334,8,8
+    EDITTEXT        IDC_EDIT1,0,53,481,88,ES_MULTILINE | WS_VSCROLL | 
+                    WS_HSCROLL
+    EDITTEXT        IDC_EDIT2,8,74,481,88,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+    EDITTEXT        IDC_EDIT3,12,83,481,88,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",TCS_HOTTRACK,12,192,
+                    481,123,WS_EX_TRANSPARENT | WS_EX_RIGHT
+    LTEXT           "",IDC_PROG,13,177,191,11,SS_SUNKEN
+    PUSHBUTTON      "J",IDC_BUTTON20,206,176,12,14
+    PUSHBUTTON      "M",IDC_BUTTON15,220,176,12,14
+    PUSHBUTTON      "H",IDC_BUTTON16,234,176,12,14
+    LTEXT           "",IDC_PROG2,260,177,190,11,SS_SUNKEN
+    PUSHBUTTON      "J",IDC_BUTTON21,454,176,12,14
+    PUSHBUTTON      "M",IDC_BUTTON19,468,176,12,14
+    PUSHBUTTON      "H",IDC_BUTTON17,482,176,12,14
+    PUSHBUTTON      "X",IDC_BUTTON5,6,4,12,11,NOT WS_VISIBLE
+    CTEXT           "Time Dimensional Backup",IDC_HEADER,105,2,295,21,
+                    SS_SUNKEN
+    CTEXT           "Source Path Selection",IDC_LABL,78,37,72,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,14,27,479,1
+    CTEXT           "Target Path Selection",IDC_LABR,336,37,70,8
+    CTEXT           "Time Dimensional Backup",IDC_HEADER2,144,7,245,13
+    PUSHBUTTON      "Browse",IDC_BUTTON10,164,34,29,12,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "Browse",IDC_BUTTON11,466,37,29,12,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    GROUPBOX        "",IDC_STATIC,12,326,225,34
+    PUSHBUTTON      "<- Compare ->",IDC_BUTTON3,441,231,68,15,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    LTEXT           "",IDC_LAB,53,364,439,13,SS_SUNKEN
+    PUSHBUTTON      "M",IDC_BUTTON18,497,194,12,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    CTEXT           "",IDC_RATE,189,37,148,10
+    LTEXT           "",IDC_BAR,12,317,482,9,SS_SUNKEN
+    CONTROL         "",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | 
+                    WS_DISABLED,0,393,8,8
+    LTEXT           "Test Readability (of Bad Sector)s",IDC_UNC8,11,393,104,
+                    8,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "old",IDC_BUTTON12,477,7,26,15,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "test",IDC_BUTTON22,445,8,29,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    LTEXT           "Shut down when done",IDC_UNC9,267,334,72,8
+    CONTROL         "",IDC_CHECK6,"Button",BS_AUTOCHECKBOX,254,334,8,8
+    LTEXT           "Yield to System",IDC_UNC10,268,346,49,8
+    CONTROL         "",IDC_CHECK7,"Button",BS_AUTOCHECKBOX,254,346,8,8
+    LTEXT           "Progress:",IDC_UNC11,13,364,30,8
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 248, 47
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Timedim Pause"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,94,27,50,14
+    LTEXT           "TimeDim is paused. To continue copying files, press the 'Continue' button.",
+                    IDC_STATIC,7,9,236,16
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 273, 57
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TimeDim::Create Directory"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,34,192,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Create",IDOK,211,6,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,211,23,50,14
+    LTEXT           "Enter a new directorry name:",IDC_PTEXT,7,19,188,12
+    LTEXT           "Enter a new directorry name:",IDC_STATIC,6,7,188,12
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 460, 209
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "TimeDim Log"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Close",IDOK,402,193,50,13
+    PUSHBUTTON      "Cancel",IDCANCEL,0,194,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT1,8,6,444,183,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "Open &Archived Log",IDC_BUTTON1,279,193,119,13
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,2
+ PRODUCTVERSION 2,0,0,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Version 2.00\0"
+            VALUE "CompanyName", "Peter Glen\0"
+            VALUE "FileDescription", "TimeDim\0"
+            VALUE "FileVersion", "2, 0, 0, 2\0"
+            VALUE "InternalName", "TimeDim Backup Application\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007, 2008, 2009\0"
+            VALUE "LegalTrademarks", "Copyright by Peter Glen\0"
+            VALUE "OriginalFilename", "TimeDim\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "TimeDim Copy Machine\0"
+            VALUE "ProductVersion", "2, 0, 0, 2\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_TIMEDIM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 499
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 386
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 241
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 453
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\brushed.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\brushed2.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\brushed3.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\pcb2.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "res\\pcb3.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "res\\bitmap6.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "res\\pcb4.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "res\\about.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "images\\new-1.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "images\\new-2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About timedim..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\timedim.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
