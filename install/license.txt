@@ -1,0 +1,17 @@
+                 TimeDim Licence Agreement
+
+    TimeDim is in development, please acknowledge that you are looking at a product that is undergoing severe modifications and endures heavy change.
+
+    The developer(s) can not assume responsibility for data integrity and data compatibility when using this version of TimeDim.
+
+You have been warned.
+
+    Once TimeDim is out of development stage, this header will be removed.
+
+ Permission is granted to use the porogram freely, without charge.
+
+ Mention of the TimeDim Copy Machine would be appreciated, but not required.
+
+
+Thanks.
+

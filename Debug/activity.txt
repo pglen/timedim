@@ -1,0 +1,521 @@
+Wednesday, August 22, 2007 - 01:10 AM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 01:10 AM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 01:13 AM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 01:13 AM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 01:14 AM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 01:14 AM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 11:39 AM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 11:39 AM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 11:43 AM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 11:43 AM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 11:56 AM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 11:56 AM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 11:57 AM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 11:57 AM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 11:58 AM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 11:58 AM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 11:58 AM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 11:59 AM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 11:59 AM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 11:59 AM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 12:00 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 12:00 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 12:00 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 12:00 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 12:00 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 12:00 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 12:11 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 12:11 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 12:11 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 12:12 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 12:12 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 12:12 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 12:12 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 12:12 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 12:12 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 12:13 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 12:13 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 12:13 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 12:14 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 12:14 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 12:14 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 01:45 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 01:45 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 01:45 PM 
+Wednesday, August 22, 2007 - 01:45 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 407 files, copied 406 files.
+Wednesday, August 22, 2007 - 01:50 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 01:50 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 01:50 PM 
+Wednesday, August 22, 2007 - 01:50 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 536 files, copied 129 files.
+Wednesday, August 22, 2007 - 01:54 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 01:54 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 01:54 PM 
+Wednesday, August 22, 2007 - 01:54 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 669 files, copied 133 files.
+Wednesday, August 22, 2007 - 01:59 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:02 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:02 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:03 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:03 PM 
+Wednesday, August 22, 2007 - 02:03 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 753 files, copied 53 files.
+Wednesday, August 22, 2007 - 02:03 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:04 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:04 PM 
+Wednesday, August 22, 2007 - 02:04 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 797 files, copied 44 files.
+Wednesday, August 22, 2007 - 02:06 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:06 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:06 PM 
+Wednesday, August 22, 2007 - 02:06 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 823 files, copied 26 files.
+Wednesday, August 22, 2007 - 02:14 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:14 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:14 PM 
+Wednesday, August 22, 2007 - 02:14 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 867 files, copied 44 files.
+Wednesday, August 22, 2007 - 02:15 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:15 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:15 PM 
+Wednesday, August 22, 2007 - 02:15 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 926 files, copied 59 files.
+Wednesday, August 22, 2007 - 02:16 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:17 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:17 PM 
+Wednesday, August 22, 2007 - 02:17 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 969 files, copied 43 files.
+Wednesday, August 22, 2007 - 02:18 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:18 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:18 PM 
+Wednesday, August 22, 2007 - 02:18 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1007 files, copied 38 files.
+Wednesday, August 22, 2007 - 02:22 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:22 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:22 PM 
+Wednesday, August 22, 2007 - 02:22 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1018 files, copied 11 files.
+Wednesday, August 22, 2007 - 02:25 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:25 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:25 PM 
+Wednesday, August 22, 2007 - 02:25 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1092 files, copied 74 files.
+Wednesday, August 22, 2007 - 02:26 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:26 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:26 PM 
+Wednesday, August 22, 2007 - 02:26 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1135 files, copied 43 files.
+Wednesday, August 22, 2007 - 02:30 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:30 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:30 PM 
+Wednesday, August 22, 2007 - 02:30 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1146 files, copied 11 files.
+Wednesday, August 22, 2007 - 02:30 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:30 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:30 PM 
+Wednesday, August 22, 2007 - 02:30 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1165 files, copied 19 files.
+Wednesday, August 22, 2007 - 02:31 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:32 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:32 PM 
+Wednesday, August 22, 2007 - 02:32 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1238 files, copied 73 files.
+Wednesday, August 22, 2007 - 02:35 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:35 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:35 PM 
+Wednesday, August 22, 2007 - 02:35 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1242 files, copied 4 files.
+Wednesday, August 22, 2007 - 02:36 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:36 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:36 PM 
+Wednesday, August 22, 2007 - 02:36 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1267 files, copied 25 files.
+Wednesday, August 22, 2007 - 02:43 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:43 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:43 PM 
+Wednesday, August 22, 2007 - 02:43 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1285 files, copied 18 files.
+Wednesday, August 22, 2007 - 02:43 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:44 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:44 PM 
+Wednesday, August 22, 2007 - 02:44 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1292 files, copied 7 files.
+Wednesday, August 22, 2007 - 02:44 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:44 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:44 PM 
+Wednesday, August 22, 2007 - 02:44 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1329 files, copied 37 files.
+Wednesday, August 22, 2007 - 02:45 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:45 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 02:45 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:45 PM 
+Wednesday, August 22, 2007 - 02:45 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1447 files, copied 33 files.
+Wednesday, August 22, 2007 - 02:46 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:46 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 02:46 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 02:46 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:47 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:47 PM 
+Wednesday, August 22, 2007 - 02:47 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 75 files, copied 74 files.
+Wednesday, August 22, 2007 - 02:48 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:48 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:48 PM 
+Wednesday, August 22, 2007 - 02:48 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 89 files, copied 14 files.
+Wednesday, August 22, 2007 - 02:51 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:51 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:51 PM 
+Wednesday, August 22, 2007 - 02:51 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 130 files, copied 41 files.
+Wednesday, August 22, 2007 - 02:53 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:53 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:53 PM 
+Wednesday, August 22, 2007 - 02:53 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 143 files, copied 13 files.
+Wednesday, August 22, 2007 - 02:53 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:54 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:54 PM 
+Wednesday, August 22, 2007 - 02:54 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 158 files, copied 15 files.
+Wednesday, August 22, 2007 - 02:54 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:54 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:54 PM 
+Wednesday, August 22, 2007 - 02:54 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 240 files, copied 82 files.
+Wednesday, August 22, 2007 - 02:55 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:57 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:57 PM 
+Wednesday, August 22, 2007 - 02:57 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 436 files, copied 196 files.
+Wednesday, August 22, 2007 - 02:58 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 02:59 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 02:59 PM 
+Wednesday, August 22, 2007 - 02:59 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 467 files, copied 31 files.
+Wednesday, August 22, 2007 - 02:59 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:00 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 03:00 PM 
+Wednesday, August 22, 2007 - 03:00 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 502 files, copied 35 files.
+Wednesday, August 22, 2007 - 03:00 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:00 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 03:00 PM 
+Wednesday, August 22, 2007 - 03:00 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 533 files, copied 31 files.
+Wednesday, August 22, 2007 - 03:01 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:01 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 03:01 PM 
+Wednesday, August 22, 2007 - 03:01 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1073 files, copied 540 files.
+Wednesday, August 22, 2007 - 03:02 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:02 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 03:02 PM 
+Wednesday, August 22, 2007 - 03:02 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1218 files, copied 145 files.
+Wednesday, August 22, 2007 - 03:04 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:04 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 03:04 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 144 files.
+Wednesday, August 22, 2007 - 03:04 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:04 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 03:04 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:04 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:05 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 03:05 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 1361 files.
+Wednesday, August 22, 2007 - 03:07 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:07 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 03:07 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:07 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:07 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 03:07 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:20 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:20 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 03:20 PM 
+Wednesday, August 22, 2007 - 03:20 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 189 files, copied 188 files.
+Wednesday, August 22, 2007 - 03:20 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:21 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 03:21 PM 
+Wednesday, August 22, 2007 - 03:21 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 664 files, copied 475 files.
+Wednesday, August 22, 2007 - 03:24 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:24 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 03:24 PM 
+Wednesday, August 22, 2007 - 03:24 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 804 files, copied 140 files.
+Wednesday, August 22, 2007 - 03:25 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:25 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 03:25 PM 
+Wednesday, August 22, 2007 - 03:25 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 321 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:25 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:25 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 03:25 PM 
+Wednesday, August 22, 2007 - 03:25 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 880 files, copied 76 files.
+Wednesday, August 22, 2007 - 03:26 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:26 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 03:26 PM 
+Wednesday, August 22, 2007 - 03:26 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 944 files, copied 64 files.
+Wednesday, August 22, 2007 - 03:28 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:28 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 03:28 PM 
+Wednesday, August 22, 2007 - 03:28 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1096 files, copied 152 files.
+Wednesday, August 22, 2007 - 03:29 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:29 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 03:29 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 266 files.
+Wednesday, August 22, 2007 - 03:33 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:33 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 03:33 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:42 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:42 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 0 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:43 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:43 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 0 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:44 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:44 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 03:44 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:44 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:44 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 03:44 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:45 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:45 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 03:45 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:46 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:46 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 03:46 PM 
+Wednesday, August 22, 2007 - 03:46 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1168 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:48 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:48 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 03:48 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1450 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:48 PM Initiated backup of 'c:\tmp2\' to 'c:\tmp\'
+Wednesday, August 22, 2007 - 03:48 PM Finished backup of 'c:\tmp2\' to 'c:\tmp\' scanned 1451 files, copied 2 files.
+Wednesday, August 22, 2007 - 03:48 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:48 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 03:48 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1452 files, copied 1 files.
+Wednesday, August 22, 2007 - 03:48 PM Initiated backup of 'c:\tmp2\' to 'c:\tmp\'
+Wednesday, August 22, 2007 - 03:48 PM Finished backup of 'c:\tmp2\' to 'c:\tmp\' scanned 1452 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:49 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:49 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 03:49 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1452 files, copied 0 files.
+Wednesday, August 22, 2007 - 03:54 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:54 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1452 files, would copy  1 files.
+Wednesday, August 22, 2007 - 03:56 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:56 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1452 files, would copy  1 files.
+Wednesday, August 22, 2007 - 03:57 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 03:58 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1452 files, would copy  1 files.
+Wednesday, August 22, 2007 - 04:08 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 04:08 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1452 files, would copy  1 files.
+Wednesday, August 22, 2007 - 04:27 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 04:27 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 04:27 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1452 files, copied 0 files.
+Wednesday, August 22, 2007 - 04:47 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 04:47 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 04:47 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1452 files, copied 0 files.
+Wednesday, August 22, 2007 - 05:59 PM Initiated backup of 'C:\Documents and Settings\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 05:59 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Wednesday, August 22, 2007 - 05:59 PM 
+Wednesday, August 22, 2007 - 05:59 PM Finished backup of 'C:\Documents and Settings\' to 'c:\tmp2\' scanned 109 files, copied 109 files.
+Wednesday, August 22, 2007 - 06:23 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Wednesday, August 22, 2007 - 06:23 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Wednesday, August 22, 2007 - 06:23 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1452 files, copied 0 files.
+Thursday, August 23, 2007 - 12:41 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Thursday, August 23, 2007 - 12:41 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 12:41 PM 
+Thursday, August 23, 2007 - 12:41 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1174 files, copied 0 files.
+Thursday, August 23, 2007 - 12:44 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Thursday, August 23, 2007 - 12:44 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Thursday, August 23, 2007 - 12:44 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1452 files, copied 0 files.
+Thursday, August 23, 2007 - 12:45 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Thursday, August 23, 2007 - 12:45 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Thursday, August 23, 2007 - 12:45 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1452 files, copied 0 files.
+Thursday, August 23, 2007 - 12:46 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Thursday, August 23, 2007 - 12:46 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Thursday, August 23, 2007 - 12:46 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1452 files, copied 0 files.
+Thursday, August 23, 2007 - 12:46 PM Initiated backup of 'c:\tmp\' to 'c:\tmp2\'
+Thursday, August 23, 2007 - 12:46 PM Read only destination 'c:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Thursday, August 23, 2007 - 12:46 PM Finished backup of 'c:\tmp\' to 'c:\tmp2\' scanned 1452 files, copied 0 files.
+Thursday, August 23, 2007 - 12:55 PM Initiated backup of 'C:\tmp\' to 'c:\tmp2\'
+Thursday, August 23, 2007 - 12:55 PM Read only destination 'C:\tmp\New Text Document.txt' --> 'c:\tmp2\New Text Document.txt'
+Thursday, August 23, 2007 - 12:55 PM Finished backup of 'C:\tmp\' to 'c:\tmp2\' scanned 1452 files, copied 0 files.
+Thursday, August 23, 2007 - 12:55 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 12:55 PM Read only destination 'C:\tmp\New Text Document.txt' --> 'C:\tmp2\New Text Document.txt'
+Thursday, August 23, 2007 - 12:55 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1452 files, copied 0 files.
+Thursday, August 23, 2007 - 12:57 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 12:57 PM Read only destination 'C:\tmp\New Text Document.txt' --> 'C:\tmp2\New Text Document.txt'
+Thursday, August 23, 2007 - 12:57 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1452 files, copied 0 files.
+Thursday, August 23, 2007 - 12:57 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 12:57 PM Read only destination 'C:\tmp\New Text Document.txt' --> 'C:\tmp2\New Text Document.txt'
+Thursday, August 23, 2007 - 12:57 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1452 files, copied 0 files.
+Thursday, August 23, 2007 - 12:57 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 12:57 PM Read only destination 'C:\tmp\New Text Document.txt' --> 'C:\tmp2\New Text Document.txt'
+Thursday, August 23, 2007 - 12:57 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1452 files, copied 0 files.
+Thursday, August 23, 2007 - 12:57 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 12:57 PM Read only destination 'C:\tmp\New Text Document.txt' --> 'C:\tmp2\New Text Document.txt'
+Thursday, August 23, 2007 - 12:57 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1452 files, copied 0 files.
+Thursday, August 23, 2007 - 12:57 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 12:57 PM Read only destination 'C:\tmp\New Text Document.txt' --> 'C:\tmp2\New Text Document.txt'
+Thursday, August 23, 2007 - 12:57 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1452 files, copied 0 files.
+Thursday, August 23, 2007 - 12:58 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 12:58 PM Read only destination 'C:\tmp\New Text Document.txt' --> 'C:\tmp2\New Text Document.txt'
+Thursday, August 23, 2007 - 12:58 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1452 files, copied 0 files.
+Thursday, August 23, 2007 - 12:59 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 12:59 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 12:59 PM 
+Thursday, August 23, 2007 - 12:59 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 51 files, copied 50 files.
+Thursday, August 23, 2007 - 01:00 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:00 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:00 PM 
+Thursday, August 23, 2007 - 01:00 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 79 files, copied 28 files.
+Thursday, August 23, 2007 - 01:07 PM Initiated backup of 'C:\Documents and Settings\Peter Glen\My Documents\' to 'C:\Documents and Settings\Peter Glen\My Documents\'
+Thursday, August 23, 2007 - 01:07 PM Finished backup of 'C:\Documents and Settings\Peter Glen\My Documents\' to 'C:\Documents and Settings\Peter Glen\My Documents\' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 01:09 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:09 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:09 PM 
+Thursday, August 23, 2007 - 01:09 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 281 files, copied 202 files.
+Thursday, August 23, 2007 - 01:12 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:12 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:12 PM 
+Thursday, August 23, 2007 - 01:12 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 317 files, copied 36 files.
+Thursday, August 23, 2007 - 01:13 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:13 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:13 PM 
+Thursday, August 23, 2007 - 01:13 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 340 files, copied 23 files.
+Thursday, August 23, 2007 - 01:14 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:14 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:14 PM 
+Thursday, August 23, 2007 - 01:14 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 391 files, copied 51 files.
+Thursday, August 23, 2007 - 01:15 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:15 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:15 PM 
+Thursday, August 23, 2007 - 01:15 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 477 files, copied 86 files.
+Thursday, August 23, 2007 - 01:15 PM Initiated backup of 'C:\tmp\' to 'C:\tmp\'
+Thursday, August 23, 2007 - 01:16 PM Finished backup of 'C:\tmp\' to 'C:\tmp\' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 01:16 PM Initiated backup of 'C:\tmp\' to 'C:\tmp\'
+Thursday, August 23, 2007 - 01:16 PM Finished backup of 'C:\tmp\' to 'C:\tmp\' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 01:16 PM Initiated backup of 'C:\tmp\' to 'C:\tmp\'
+Thursday, August 23, 2007 - 01:16 PM Finished backup of 'C:\tmp\' to 'C:\tmp\' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 01:17 PM Initiated backup of 'C:\tmp\' to 'C:\tmp\'
+Thursday, August 23, 2007 - 01:17 PM Finished backup of 'C:\tmp\' to 'C:\tmp\' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 01:19 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:19 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:19 PM 
+Thursday, August 23, 2007 - 01:19 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 539 files, copied 62 files.
+Thursday, August 23, 2007 - 01:19 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:20 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:20 PM 
+Thursday, August 23, 2007 - 01:20 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 834 files, copied 295 files.
+Thursday, August 23, 2007 - 01:21 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:21 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:21 PM 
+Thursday, August 23, 2007 - 01:21 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 863 files, copied 29 files.
+Thursday, August 23, 2007 - 01:22 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:22 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:22 PM 
+Thursday, August 23, 2007 - 01:22 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 930 files, copied 67 files.
+Thursday, August 23, 2007 - 01:24 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:24 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:24 PM 
+Thursday, August 23, 2007 - 01:24 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 994 files, copied 64 files.
+Thursday, August 23, 2007 - 01:26 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:26 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:26 PM 
+Thursday, August 23, 2007 - 01:26 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1040 files, copied 46 files.
+Thursday, August 23, 2007 - 01:27 PM Initiated backup of 'C:\Documents and Settings\Peter Glen\My Documents\' to 'C:\Documents and Settings\Peter Glen\My Documents\'
+Thursday, August 23, 2007 - 01:27 PM Finished backup of 'C:\Documents and Settings\Peter Glen\My Documents\' to 'C:\Documents and Settings\Peter Glen\My Documents\' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 01:30 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:30 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1452 files, would copy  323 files.
+Thursday, August 23, 2007 - 01:34 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:34 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:34 PM 
+Thursday, August 23, 2007 - 01:34 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1090 files, copied 50 files.
+Thursday, August 23, 2007 - 01:36 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 01:36 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 01:36 PM 
+Thursday, August 23, 2007 - 01:36 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1160 files, copied 70 files.
+Thursday, August 23, 2007 - 02:12 PM Initiated backup of 'C:\Documents and Settings\Peter Glen\My Documents\' to 'C:\Documents and Settings\Peter Glen\'
+Thursday, August 23, 2007 - 02:13 PM Finished backup of 'C:\Documents and Settings\Peter Glen\My Documents\' to 'C:\Documents and Settings\Peter Glen\' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:30 PM Initiated backup of 'C:\Documents and Settings\Peter Glen\My Documents\' to 'C:\Documents and Settings\Peter Glen\'
+Thursday, August 23, 2007 - 02:30 PM Finished backup of 'C:\Documents and Settings\Peter Glen\My Documents\' to 'C:\Documents and Settings\Peter Glen\' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:31 PM Initiated backup of 'C:\Documents and Settings\Peter Glen\' to 'C:\Documents and Settings\Peter Glen\My Documents\'
+Thursday, August 23, 2007 - 02:31 PM Finished backup of 'C:\Documents and Settings\Peter Glen\' to 'C:\Documents and Settings\Peter Glen\My Documents\' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:32 PM Initiated backup of 'C:\Documents and Settings\Peter Glen\' to 'C:\Documents and Settings\Peter Glen\My Documents\'
+Thursday, August 23, 2007 - 02:32 PM Finished backup of 'C:\Documents and Settings\Peter Glen\' to 'C:\Documents and Settings\Peter Glen\My Documents\' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:33 PM Initiated backup of 'C:\Documents and Settings\Peter Glen\' to 'C:\Documents and Settings\Peter Glen\My Documents\o'
+Thursday, August 23, 2007 - 02:33 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 02:33 PM 
+Thursday, August 23, 2007 - 02:33 PM Finished backup of 'C:\Documents and Settings\Peter Glen\' to 'C:\Documents and Settings\Peter Glen\My Documents\o' scanned 61 files, copied 61 files.
+Thursday, August 23, 2007 - 02:34 PM Initiated backup of 'C:\Documents and Settings\Peter Glen\' to 'C:\Documents and Settings\Peter Glen\My Documents\o'
+Thursday, August 23, 2007 - 02:34 PM Finished backup of 'C:\Documents and Settings\Peter Glen\' to 'C:\Documents and Settings\Peter Glen\My Documents\o' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:37 PM Initiated backup of 'C:\Documents and Settings\Peter Glen\' to 'C:\Documents and Settings\Peter Glen\My Documents\o'
+Thursday, August 23, 2007 - 02:37 PM Finished backup of 'C:\Documents and Settings\Peter Glen\' to 'C:\Documents and Settings\Peter Glen\My Documents\o' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:38 PM Initiated backup of 'C:\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 02:38 PM Finished backup of 'C:\' to 'C:\tmp2\' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:38 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 02:38 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:41 PM Initiated backup of 'C:\' to 'C:\tmp2\o'
+Thursday, August 23, 2007 - 02:41 PM Finished backup of 'C:\' to 'C:\tmp2\o' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:43 PM Initiated backup of 'C:\cvs\' to 'C:\tmp2\o'
+Thursday, August 23, 2007 - 02:43 PM Finished backup of 'C:\cvs\' to 'C:\tmp2\o' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:43 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 02:43 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 02:43 PM 
+Thursday, August 23, 2007 - 02:43 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1248 files, copied 88 files.
+Thursday, August 23, 2007 - 02:44 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\o'
+Thursday, August 23, 2007 - 02:44 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\o' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:44 PM Initiated backup of '' to ''
+Thursday, August 23, 2007 - 02:44 PM Finished backup of '' to '' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:45 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\o'
+Thursday, August 23, 2007 - 02:45 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\o' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:45 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 02:45 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 02:45 PM 
+Thursday, August 23, 2007 - 02:45 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1342 files, copied 94 files.
+Thursday, August 23, 2007 - 02:53 PM Initiated backup of '' to ''
+Thursday, August 23, 2007 - 02:53 PM Finished backup of '' to '' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:53 PM Initiated backup of '' to ''
+Thursday, August 23, 2007 - 02:53 PM Finished backup of '' to '' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:53 PM Initiated backup of '' to ''
+Thursday, August 23, 2007 - 02:53 PM Finished backup of '' to '' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:53 PM Initiated backup of '' to ''
+Thursday, August 23, 2007 - 02:53 PM Finished backup of '' to '' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:53 PM Initiated backup of '' to ''
+Thursday, August 23, 2007 - 02:53 PM Finished backup of '' to '' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:55 PM Initiated backup of '' to ''
+Thursday, August 23, 2007 - 02:55 PM Finished backup of '' to '' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:56 PM Initiated backup of '' to ''
+Thursday, August 23, 2007 - 02:56 PM Finished backup of '' to '' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:57 PM Initiated backup of '' to ''
+Thursday, August 23, 2007 - 02:57 PM Finished backup of '' to '' scanned 0 files, copied 0 files.
+Thursday, August 23, 2007 - 02:59 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 02:59 PM Read only destination 'C:\tmp\New Text Document.txt' --> 'C:\tmp2\New Text Document.txt'
+Thursday, August 23, 2007 - 02:59 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 1452 files, copied 20 files.
+Thursday, August 23, 2007 - 02:59 PM Initiated backup of 'C:\tmp\' to 'C:\tmp2\'
+Thursday, August 23, 2007 - 03:00 PM 
+Copy was stopped by the request of the user. Some files may not have been copied. It is safe to resume copy in the future.
+Thursday, August 23, 2007 - 03:00 PM 
+Thursday, August 23, 2007 - 03:00 PM Finished backup of 'C:\tmp\' to 'C:\tmp2\' scanned 594 files, copied 593 files.
