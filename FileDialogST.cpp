@@ -1,8 +1,6 @@
 ////////////////////////////////////////////////////////////////
 // Overriding CFileDialog
 
-
-
 #include "stdafx.h"
 #include "FileDialogST.h"
 
@@ -14,6 +12,8 @@ static char THIS_FILE[]=__FILE__;
 #define new DEBUG_NEW
 #endif
 
+// Deprecation warnings OFF (deal with it at some point)
+#pragma warning( disable : 4996 )
 
 UINT CALLBACK OFNHookProc(
   HWND hdlg,      // handle to child dialog window
@@ -164,6 +164,7 @@ CFileDialogST::~CFileDialogST()
 {
 }
 
+
 // This function displays the file selection dialog box and allows the user to make a selection.
 // All required fields of the m_ofn public structure must be filled. This can be done
 // using the class constructor or accessing directly the structure. Also the public
@@ -186,9 +187,9 @@ int CFileDialogST::DoModal()
 
 	dwWinMajor = (DWORD)(LOBYTE(LOWORD(::GetVersion())));
 
-	if (dwWinMajor >= 5)
-		m_ofn.lStructSize = sizeof(m_ofn);
-	else
+	//if (dwWinMajor >= 5)
+	//	m_ofn.lStructSize = sizeof(m_ofn);
+	//else
 		m_ofn.lStructSize = sizeof(OPENFILENAME);
 
 	// Execute dialog
@@ -197,6 +198,10 @@ int CFileDialogST::DoModal()
 	else
 		bRetValue = ::GetSaveFileName(&m_ofn);
 
+	//P2N("End CFileDialogST::DoModal() ret %d ect %d\r\n", bRetValue, 
+	//												CommDlgExtendedError());
+
+	//CDERR_DIALOGFAILURE 
 	return bRetValue;
 
 	//return (bRetValue ? IDOK : IDCANCEL);
@@ -248,7 +253,8 @@ CString CFileDialogST::GetFileTitle() const
 	TCHAR szTitle[MAX_PATH];
 
 	// Split path into components
-	_tsplitpath(m_ofn.lpstrFile, NULL, NULL, szTitle, NULL);
+	_splitpath_s(m_ofn.lpstrFile, NULL, _MAX_PATH,
+						NULL, _MAX_PATH, szTitle, _MAX_PATH, NULL, _MAX_PATH);
 
 	return szTitle;
 } // End of GeFileTitle
@@ -295,7 +301,7 @@ CString CFileDialogST::GetFileDrive() const
 	TCHAR szDrive[MAX_PATH];
 
 	// Split path into components
-	_tsplitpath(m_ofn.lpstrFile, szDrive, NULL, NULL, NULL);
+	_splitpath(m_ofn.lpstrFile, szDrive, NULL, NULL, NULL);
 
 	return szDrive;
 } // End of GeFileDrive

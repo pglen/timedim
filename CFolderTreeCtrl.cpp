@@ -147,13 +147,13 @@ void CFolderTreeCtrl::AddDrive(char drivePathName[])
 
 	if(!GetVolumeName(drivePathName, volumeName))
 		{
-		strcpy(volumeName, "None");
+		strcpy_s(volumeName, _MAX_PATH, "None");
 		}
 		
 	//else
 	//	sprintf(newDrive, "%c:", drivePathName[0]);
 	
-	sprintf(newDrive, "%c: [%s] %.0f Gig Total, %.0f Gig Free [%0d%%]", drivePathName[0], volumeName, 
+	sprintf_s(newDrive, "%c: [%s] %.0f Gig Total, %.0f Gig Free [%0d%%]", drivePathName[0], volumeName, 
 				totalb, freeb, (int)(freeb/totalb * 100));
 
 	//P2N("Adding Drive %s\r\n", newDrive);
@@ -410,18 +410,18 @@ void CFolderTreeCtrl::GetFolderPathName(HTREEITEM currentItem, char* folderPathN
 	while(currentItem)
 		{
 		buffer[count] = new char[GetItemText(currentItem).GetLength() + 1];
-		strcpy(buffer[count], GetItemText(currentItem).GetBuffer(_MAX_PATH));
+		strcpy_s(buffer[count], _MAX_PATH, GetItemText(currentItem).GetBuffer(_MAX_PATH));
 		count++;
 
 		currentItem = GetParentItem(currentItem);
 		}
 
-	sprintf(folderPathName, "%c:\\", buffer[count - 1][0]);
+	sprintf_s(folderPathName, _MAX_PATH, "%c:\\", buffer[count - 1][0]);
 
 	for(int i = count-2 ; i >= 0 ; i--)
 		{
-		strcat(folderPathName, buffer[i]);
-		strcat(folderPathName, "\\");
+		strcat_s(folderPathName, _MAX_PATH, buffer[i]);
+		strcat_s(folderPathName, _MAX_PATH, "\\");
 		}
 
 	for(int ii = 0; ii < count; ii++)
@@ -460,7 +460,7 @@ void CFolderTreeCtrl::DrawChildren(HTREEITEM parentItem)
 	GetFolderPathName(parentItem, parentFolderPathName);
 
 	if(parentFolderPathName[strlen(parentFolderPathName) - 1] != '\\')
-		strcat(parentFolderPathName, "\\");
+		strcat_s(parentFolderPathName, _MAX_PATH, "\\");
 
 	tmp.Format("%s*", parentFolderPathName);
 	hFind = FindFirstFile(tmp, &Find);
@@ -472,7 +472,7 @@ void CFolderTreeCtrl::DrawChildren(HTREEITEM parentItem)
 	
 	while(hFind)
 		{
-		sprintf(currentFolderPathName, "%s%s", parentFolderPathName, Find.cFileName);
+		sprintf_s(currentFolderPathName, "%s%s", parentFolderPathName, Find.cFileName);
 
 		//P2N("Scanning for folder %s\r\n", currentFolderPathName);
 
@@ -504,9 +504,10 @@ int CFolderTreeCtrl::HaveChildren(char parentFolderPathName[])
 	char TEMP[_MAX_PATH];
 
 	if(parentFolderPathName[strlen(parentFolderPathName)-1] != '\\')
-	strcat(parentFolderPathName, "\\");
+	//strcat_s(parentFolderPathName, 2, "\\");
+	strcat_s(parentFolderPathName, _MAX_PATH, "\\");
 
-	sprintf(TEMP, "%s*", parentFolderPathName);
+	sprintf_s(TEMP, "%s*", parentFolderPathName);
 
 	hFind = FindFirstFile(TEMP, &Find);
 	if(hFind == INVALID_HANDLE_VALUE)
@@ -516,7 +517,7 @@ int CFolderTreeCtrl::HaveChildren(char parentFolderPathName[])
 
 	while(hFind)
 		{
-		sprintf(currentFolderPathName, "%s%s", parentFolderPathName, Find.cFileName);
+		sprintf_s(currentFolderPathName, "%s%s", parentFolderPathName, Find.cFileName);
 
 		if(IsValidFolder(currentFolderPathName) && strcmp(Find.cFileName, ".") != 0 && strcmp(Find.cFileName, "..") != 0)
 		return 1;
@@ -640,7 +641,7 @@ void CFolderTreeCtrl::DrawNumSelectedFolder()
 	return;
 
 	char sNumSelectedFolder[_MAX_PATH];
-	sprintf(sNumSelectedFolder, "%d Selected Folder(s)", GetNumSelectedFolder());
+	sprintf_s(sNumSelectedFolder, "%d Selected Folder(s)", GetNumSelectedFolder());
 	p_state->SetWindowText(sNumSelectedFolder);
 }
 
@@ -744,7 +745,7 @@ HTREEITEM CFolderTreeCtrl::InsertChildFolder(char childFolderName[], HTREEITEM p
 
 	char parentFolderPathName[_MAX_PATH];
 	GetFolderPathName(parentItem, parentFolderPathName);
-	strcat(parentFolderPathName, childFolderName);
+	strcat_s(parentFolderPathName, childFolderName);
 	haveChildren = HaveChildren(parentFolderPathName);
 
 	/* Sinon on l'insert */
@@ -951,7 +952,10 @@ void CFolderTreeCtrl::MenuEventMkdir(CCmdUI* pCmdUI)
 		int ret = _mkdir(newdir);
 		if(ret < 0)
 			{
-			MBOXP("Error on creating new dir: '%s' Error description: %s", newdir, strerror(errno));
+			char errx[_MAX_PATH];
+			strerror_s(errx, _MAX_PATH, errno);
+			MBOXP("Error on creating new dir: '%s' Error description: %s", newdir,
+				errx);
 			}
 		}
 	
@@ -1012,7 +1016,12 @@ void CFolderTreeCtrl::Refresh()
 			delitem = pCurrentItem;
 			}
 		pCurrentItem = GetNextItem(pCurrentItem, TVGN_NEXT);
-		DeleteItem(delitem);
+		
+		if (!IsValidFolder(folderPathName))
+		{
+			DeleteItem(delitem);
+		}
+
 		itemcnt++;
 		}
 
@@ -1281,7 +1290,7 @@ void CFolderTreeCtrl::SetCurr(const char *str)
 		//P2N("Root Item %s \r\n", rname);
 
 		rname = rname.Left(2);
-		if(strnicmp(rname, str, rname.GetLength()) == 0)
+		if(_strnicmp(rname, str, rname.GetLength()) == 0)
 			{
 			found = true;
 			//P2N("Found item\r\n");
@@ -1314,7 +1323,7 @@ void CFolderTreeCtrl::SetCurr(const char *str)
 
 			name2 = rname + name + "\\";
 			
-			if(strnicmp(name2, str, name2.GetLength()) == 0)
+			if(_strnicmp(name2, str, name2.GetLength()) == 0)
 				{
 				//P2N("Found new %s\r\n", name2);
 

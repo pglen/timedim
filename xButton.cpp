@@ -7,6 +7,8 @@
 #include "xButton.h"
 #include "mxpad.h"
 
+#pragma warning( disable : 4096 )
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #undef THIS_FILE
@@ -806,12 +808,16 @@ void CxButton::SetButtonStyle(UINT nStyle, BOOL bRedraw)
 
 	if (bRedraw) Invalidate();
 }
+
+
+
+
 /////////////////////////////////////////////////////////////////////////////
 bool CxButton::SetFont(CString sFontName,long lSize, long lWeight, BYTE bItalic, BYTE bUnderline)
 {
 	if (m_pLF==NULL) m_pLF=(LOGFONT*)calloc(1,sizeof(LOGFONT));
 	if (m_pLF){
-		strncpy(m_pLF->lfFaceName,sFontName,31);
+		strncpy_s(m_pLF->lfFaceName,sFontName,31);
 		m_pLF->lfHeight=lSize;
 		m_pLF->lfWeight=lWeight;
 		m_pLF->lfItalic=bItalic;

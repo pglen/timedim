@@ -212,9 +212,6 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="hlp\timedim.hpj">
-      <Filter>Source Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="Resource.h">
       <Filter>Header Files</Filter>
     </CustomBuild>

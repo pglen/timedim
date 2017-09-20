@@ -95,7 +95,7 @@ int     PrintToLog(const char *Format, ...)
 
     va_list ArgList;
     va_start(ArgList, Format);
-    int len = _vsnprintf(szOutString, sizeof(szOutString), Format, ArgList);
+    int len = _vsnprintf_s(szOutString, sizeof(szOutString), Format, ArgList);
 	datalog.Write(szOutString, len);
 
     return(0);
@@ -157,10 +157,14 @@ int		InterpretComandLine(CString *arr, int lim)
 			{
 			mainwin->m_check3 = true;
 			}
-		if(arr[loop] == "/v")
-			{
+		if (arr[loop] == "/v")
+		{
 			mainwin->m_check4 = true;
-			}
+		}
+		if (arr[loop] == "/r")
+		{
+			mainwin->m_check6 = true;
+		}
 		if(arr[loop] == "/f")
 			{
 			dosession = arr[loop + 1];
@@ -315,7 +319,7 @@ BOOL CTimedimApp::InitInstance()
 	appdata += "timedim";
 
 	if(!IsDir(appdata))
-		mkdir(appdata);
+		_mkdir(appdata);
 
 	appdata += "\\";
 
@@ -328,7 +332,7 @@ BOOL CTimedimApp::InitInstance()
 	//  the specific initialization routines you do not need.
 
 #ifdef _AFXDLL
-	Enable3dControls();			// Call this when using MFC in a shared DLL
+	//Enable3dControls();			// Call this when using MFC in a shared DLL
 #else
 	Enable3dControlsStatic();	// Call this when linking to MFC statically
 #endif
@@ -514,7 +518,7 @@ void	SplitPath(CString &full,  CString &drive,
 	//strncpy(sbuffer, full, MAX_PATH);
 
 	//Parse it
-	_splitpath(full, sdrive, sdir, sfname, sext);
+	_splitpath_s(full, sdrive, sdir, sfname, sext);
 
 	//P2N("path components sdrive=%s sdir=%s  sfname=%s sext=%s\r\n",
 	//						sdrive, sdir, sfname, sext);

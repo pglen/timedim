@@ -215,6 +215,8 @@ protected:
 	afx_msg void OnCheck7();
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
+public:
+	afx_msg void OnBnClickedCheck6();
 };
 
 //{{AFX_INSERT_LOCATION}}

@@ -68,6 +68,7 @@ public:
 	CFileDialogST();
 	virtual ~CFileDialogST();
 
+
 	virtual int DoModal();
 	virtual  BOOL OnInitDialog( );
 

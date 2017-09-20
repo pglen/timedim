@@ -46,6 +46,9 @@
 static char THIS_FILE[] = __FILE__;
 #endif
 
+// Deprecation warnings OFF (deal with it at some point)
+#pragma warning( disable : 4996 )
+
 #define OFLOWLINES		200
 #define ERROFLOWLINES	2000
 
@@ -96,6 +99,8 @@ protected:
 	afx_msg BOOL OnEraseBkgnd(CDC* pDC);
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
+public:
+	afx_msg void OnStnClickedVer();
 };
 
 CAboutDlg about;
@@ -126,6 +131,7 @@ BEGIN_MESSAGE_MAP(CAboutDlg, CDialog)
 	ON_WM_ENTERIDLE()
 	ON_WM_ERASEBKGND()
 	//}}AFX_MSG_MAP
+	ON_STN_CLICKED(IDC_VER, &CAboutDlg::OnStnClickedVer)
 END_MESSAGE_MAP()
 
 /////////////////////////////////////////////////////////////////////////////
@@ -264,6 +270,7 @@ BEGIN_MESSAGE_MAP(CTimedimDlg, CDialog)
 	ON_BN_CLICKED(IDC_BUTTON12, OnButton12)
 	ON_BN_CLICKED(IDC_CHECK7, OnCheck7)
 	//}}AFX_MSG_MAP
+	ON_BN_CLICKED(IDC_CHECK6, &CTimedimDlg::OnBnClickedCheck6)
 END_MESSAGE_MAP()
 
 /////////////////////////////////////////////////////////////////////////////
@@ -754,13 +761,21 @@ void CTimedimDlg::OnTimer(UINT nIDEvent)
 		if(stat(logname, &buffer) >= 0)
 			{
 			if(buffer.st_size > 50000)
-				{
-				CTime ct3 = buffer.st_mtime;
-				CString datestr3 = ct3.Format("activity-%02d%02m%y.txt");
+				{				
+				CString datestr3;
+				//CTime ct3 = buffer.st_mtime;
+				struct tm *tmm = localtime(&buffer.st_mtime);	
+				tmm->tm_year += 1900; tmm->tm_mon += 1;
+				char *buff = datestr3.GetBuffer(_MAX_PATH + 1);
+				snprintf(buff, _MAX_PATH, "activity-%02d-%02d-%02d.txt", 
+								tmm->tm_mday, tmm->tm_mon, tmm->tm_year);
+				// It got broken in VC15
+				//strftime(buff, _MAX_PATH, "activity-%02d%02m%y.txt", tmm);
+				datestr3.ReleaseBuffer();
 				
 				CString newname(appdata); newname += datestr3;
 				
-				//P2N("Created backup datalog file %s\r\n", newname);
+				P2N("Created backup datalog file %s\r\n", newname);
 				rename(logname, newname);
 				}
 			}
@@ -935,13 +950,20 @@ warp:
 					logdlg.EndDialog(IDOK);
 				
 				ProgText("Finished copy ...  Exiting in 5 seconds ...\r\n");
-				SetTimer(3, 5000, NULL);			
+				if (m_check6)
+					{
+					ShutDownTimer();
+					}
+				else
+					{
+					SetTimer(3, 5000, NULL);
+					}
 				}
 			}
 		}
 
 	if(nIDEvent == 3)
-		{
+		{		
 		EndDialog(IDOK);
 		}
 
@@ -2009,7 +2031,7 @@ void CTimedimDlg::ProgTextP(const char *Format, ...)
     char    *asc = NULL;
     va_list ArgList;
     va_start(ArgList, Format);
-    _vsnprintf(szOutString, sizeof(szOutString), Format, ArgList);
+    _vsnprintf_s(szOutString, sizeof(szOutString), Format, ArgList);
 
     ProgText(szOutString);
 }
@@ -2735,7 +2757,7 @@ CString GetCurrentDir()
 	CString dir;
 	char buffer[_MAX_PATH + 4];
 
-	getcwd(buffer, _MAX_PATH);
+	_getcwd(buffer, _MAX_PATH);
 
 	// Fix up path for split
 	if(strlen(buffer) > 3 )
@@ -2899,7 +2921,7 @@ void CTimedimDlg::LoadSessionfile(const char *fname)
 
 {
 	CFile	cf; 
-	int		len;
+	unsigned int		len;
 	char	*buff;
 
 	CString str;
@@ -2912,7 +2934,7 @@ void CTimedimDlg::LoadSessionfile(const char *fname)
 		goto endd;
 		}
 
-	len = cf.GetLength();
+	len = (unsigned int) cf.GetLength();
 
 	buff = str.GetBuffer(len + 1);
 	if(!buff)
@@ -3145,4 +3167,16 @@ void CTimedimDlg::OnCheck7()
 	int flag = ((CButton *)GetDlgItem(IDC_CHECK7))->GetCheck();
 	//P2N("CTimedimDlg::OnCheck7 %d\r\n", flag);
 	copyfile.friendly = flag;		
+}
+
+
+void CTimedimDlg::OnBnClickedCheck6()
+{
+	// TODO: Add your control notification handler code here
+}
+
+
+void CAboutDlg::OnStnClickedVer()
+{
+	// TODO: Add your control notification handler code here
 }

@@ -74,7 +74,7 @@ void CLogDlg::OnTimer(UINT nIDEvent)
 		return;
 		}
 
-	buff = (char *) malloc(dlog.GetLength() + 1);
+	buff = (char *) malloc((unsigned int)dlog.GetLength() + 1);
 
 	if(!buff)
 		{
@@ -83,7 +83,7 @@ void CLogDlg::OnTimer(UINT nIDEvent)
 		return;
 		}
 
-	int len = dlog.Read(buff, dlog.GetLength());
+	int len = dlog.Read(buff, (unsigned int)dlog.GetLength());
 	buff[len] = 0;
 	dlog.Close();
 	

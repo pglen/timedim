@@ -31,12 +31,14 @@
 
 #include "support.h"
 
-
 #ifdef _DEBUG
 #undef THIS_FILE
 static char THIS_FILE[]=__FILE__;
 #define new DEBUG_NEW
 #endif
+
+// Deprecation warnings OFF (deal with it at some point)
+#pragma warning( disable : 4996 )
 
 /////////////////////////////////////////////////////////////////////////////
 // Shorten path to file name
@@ -324,7 +326,7 @@ int		CCopyFile::CopyTimeDimFile(const char *src, const char *dest, int failif)
 
 	if(failif)
 		{
-		if(access(dest, 0) >= 0)
+		if(_access(dest, 0) >= 0)
 			{
 			err = TARGET_FILE_EXISTS;
 			goto endd;
@@ -373,7 +375,7 @@ endd:
 	if(stop > 2)
 		{
 		// Unlink partial file
-		unlink(dest);
+		_unlink(dest);
 		}
 
 	endc = clock();
