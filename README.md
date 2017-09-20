@@ -13,12 +13,16 @@ when started from the command line. All actions are interruptible.
 
  Options:   (windows convention used)
  
-   /p    prompt before start
-   /b    backup old file
-   /s    simulate copy (what would it do)
-   /v    verify on
-   /r    shutdown when done
+   */p    prompt before start
+   */b    backup old file
+   */s    simulate copy (what would it do)
+   */v    verify on
+   */r    shutdown when done
 
+  Note" some of the souce files are redundant is VS2015, I left them in that an
+   #if 0 so the project can recompile on old compilers.
+   
+   ![Screen Shot](./images/main.jpg)
 
 
 
